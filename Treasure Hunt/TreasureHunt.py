@@ -28,6 +28,7 @@ if Choice1 == 'right':
  `:::::`::::::::::::;'`:;::#                O
   `:::::`::::::::;' /  / `:#
    ::::::`:::::;'  /  /   `#
+   You fell into a Pit
    You are Dead''')
 if Choice1 == 'left':
     Choice2 = input("You want to swim or wait for boat? \n")
@@ -55,6 +56,7 @@ if Choice1 == 'left':
  `:::::`::::::::::::;'`:;::#                O
   `:::::`::::::::;' /  / `:#
    ::::::`:::::;'  /  /   `#
+   You got eaten by Crocodiles
    You are Dead''')
     if Choice2 == 'wait':
         Choice3 = input("Which door? Red,Yellow or Blue\n")
@@ -104,4 +106,5 @@ ____/______/______/______/______/_____"=.o|o_.--""___/______/______/______/____
  `:::::`::::::::::::;'`:;::#                O
   `:::::`::::::::;' /  / `:#
    ::::::`:::::;'  /  /   `#
+   You fell into a Room of Fire
    You are Dead''')
